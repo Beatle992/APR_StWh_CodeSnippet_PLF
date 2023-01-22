@@ -1,7 +1,7 @@
-public abstract class Weather {
+public abstract class City {
     private double temperature;
 
-    public Weather( double temperature) {
+    public City(double temperature) {
         this.temperature = temperature;
     }
 

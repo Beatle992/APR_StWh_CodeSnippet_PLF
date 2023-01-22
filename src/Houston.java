@@ -1,4 +1,4 @@
-public class Houston extends Weather {
+public class Houston extends City {
     public Houston( double temperature) {
         super( temperature);
     }
