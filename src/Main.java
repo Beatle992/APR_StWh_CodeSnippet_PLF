@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        Houston calculateFahrenheit = new Houston(28);
-        System.out.println(calculateFahrenheit.getCity());
+        Houston houston = new Houston(35.6);
+        System.out.println(houston.getCity());
 
-
+        NewYork newYork = new NewYork(3);
+        System.out.println(newYork.getCity());
     }
 }

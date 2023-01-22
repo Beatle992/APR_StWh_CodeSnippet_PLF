@@ -1,5 +1,5 @@
-public class CalculateKelvin extends Weather {
-    public CalculateKelvin( double temperature) {
+public class NewYork extends Weather {
+    public  NewYork( double temperature) {
         super( temperature);
     }
 

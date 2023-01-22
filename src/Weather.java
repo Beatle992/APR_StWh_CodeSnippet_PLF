@@ -1,14 +1,11 @@
 public abstract class Weather {
-
     private double temperature;
 
     public Weather( double temperature) {
-
         this.temperature = temperature;
     }
 
-    public double getTemperature() {
+    protected double getTemperature() {
         return this.temperature;
     }
-
 }
